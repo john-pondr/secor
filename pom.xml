@@ -51,7 +51,7 @@
         <maven.compiler.target>1.6</maven.compiler.target>
         <encoding>UTF-8</encoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <parquet.version>1.9.0</parquet.version>
+        <parquet.version>1.10.0</parquet.version>
     </properties>
 
     <distributionManagement>
@@ -90,22 +90,22 @@
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java</artifactId>
-            <version>3.1.0</version>
+            <version>3.4.0</version>
         </dependency>
         <dependency>
             <groupId>com.google.protobuf</groupId>
             <artifactId>protobuf-java-util</artifactId>
-            <version>3.1.0</version>
+            <version>3.4.0</version>
         </dependency>
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-s3</artifactId>
-            <version>1.11.160</version>
+            <version>1.11.335</version>
         </dependency>
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk-sts</artifactId>
-            <version>1.11.160</version>
+            <version>1.11.335</version>
         </dependency>
         <dependency>
             <groupId>net.java.dev.jets3t</groupId>
